@@ -24,7 +24,7 @@ def Prediction(Airline,month,Source,Destination,Route,Duration,Total_Stops,Addit
 
 co1 , co2 , co3 = st.columns([1,0.10,1])
 with co1 :
-     st.image("indian-pacific-logo.png" , use_column_width=True)
+     st.image("App/indian-pacific-logo.png" , use_column_width=True)
 with co3 :
      st.header('Price prediction:')
      st.write('This model predict the price of tickets.Experimental copy(tarin on a small data)')

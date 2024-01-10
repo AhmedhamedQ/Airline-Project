@@ -8,7 +8,7 @@ import category_encoders
 
 st.set_page_config(page_title='Airline Model' , page_icon='🛫')
 
-model = joblib.load('App/KNN_model.pkl')
+model = joblib.load('KNN_model2.pkl')
 df = pd.read_csv('Airline.csv')
 
 def Prediction(Airline,month,Source,Destination,Route,Duration,Total_Stops,Additional_Info):
